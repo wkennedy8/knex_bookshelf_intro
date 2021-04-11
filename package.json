@@ -1,0 +1,19 @@
+{
+  "name": "Knex-Bookshelf-dmeo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "migrate": "knex migrate:latest",
+    "seed": "knex seed:run"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bookshelf": "^1.2.0",
+    "knex": "^0.95.4",
+    "mysql": "^2.18.1"
+  }
+}
