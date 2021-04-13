@@ -213,3 +213,7 @@ exports.seed = function (knex) {
 - `SELECT * FROM warehouses`
 - `SELECT * FROM inventories`
   
+
+### Express Routes
+To view how to query and interact with the database with Express:
+`git checkout add-express-routes`
